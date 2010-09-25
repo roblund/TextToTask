@@ -67,6 +67,10 @@
         $response_message = 'Task was NOT added.';
     }
 
+    //NOTE: you can remove the response below if would like to cut your Twilio bill in 
+    //    half. Just comment out the two lines below, and remove the response XML at 
+    //    the bottom.
+    
     //set up response to twilio and your cell phone
     header("content-type: text/xml");
     echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
