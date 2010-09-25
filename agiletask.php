@@ -3,7 +3,7 @@
     ** A quick and dirty Twilio -> AgileTask integration
     **
     ** Note: you will need a Twilio account, and an AgileTask account for this integration
-    ** to work correct. Host this script with any hosting provider that supports PHP,
+    ** to work correctly. Host this script with any hosting provider that supports PHP,
     ** and cURL.
     */
 
