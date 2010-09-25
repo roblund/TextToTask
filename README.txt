@@ -5,3 +5,7 @@ You can use this script to text in a task from your cell phone. You will need a 
 Installation: Grab the script. Swap in your cell number, and your AgileTask API key. Then upload the script onto a hosting provider of your choice. Take the URL of the hosted script and paste it into your Twilio account's SMS URL.
 
 Use: Text your task to your Twilio number, and it should show up in your Icebox.
+
+API Documentation:
+* AgileTask - http://doc.agiletask.me
+* Twilio - http://www.twilio.com/docs/index
