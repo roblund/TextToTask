@@ -24,7 +24,7 @@
 
     //put your api key here
     $agiletask_api_key = 'XXXXXXXXXXXXXXXXXXXX';
-    $agiletask_url = sprintf('http://agiletask.me/tasks.json?api_key=%s', $agiletask_api_key);
+    $agiletask_url = sprintf('https://agiletask.me/tasks.json?api_key=%s', $agiletask_api_key);
 
     //request headers
     $headers = array(
