@@ -35,7 +35,7 @@
     //put message body into an appropriate json data structure (full task object def at http://doc.agiletask.me)
     $json_data = json_encode(array(
         'task' => array(
-            'name' => $_REQUEST['Body']
+            'name' => strip_tags($_REQUEST['Body'])
         )
     ));
 
